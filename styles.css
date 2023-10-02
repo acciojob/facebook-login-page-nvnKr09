@@ -24,10 +24,10 @@ a{
 	width:100%;
 	border-bottom: 1px solid black;
 }
-img{
+.left img{
 	width:350px;
 }
-.website-purpose>p{
+.left>p{
 	margin:0;
 	font-weight: 600;
 	font-size:30px;
@@ -54,10 +54,9 @@ input{
 	width:100%;
 	background:#1a77f2;
 }
-.new-acc-btn{
+.signup{
 	width:200px;
 	background:#43b72a;
-	
 }
 button{
 	font-size: 1em;
@@ -65,6 +64,7 @@ button{
 	border-radius: 5px;
 	border: none;
 	height: 35px;
+	cursor:pointer;
 }
 ::placeholder{
 	font-weight: 500;

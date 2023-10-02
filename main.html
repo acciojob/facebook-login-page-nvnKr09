@@ -8,20 +8,23 @@
 
 <body>
 	<div class="container">
-		<div class="website-purpose">
+		<div class="left">
 			<img src="https://1000logos.net/wp-content/uploads/2016/11/Facebook-Logo-500x281.png"
 			 alt="fblogo"/>
 			<p>Facebook helps you connect and share with the people in your life.</p>
 		</div>
 		<div class="login">
 			<form action="#" method="post">
-				<input type="text" placeholder="Email address or phone number">
-				<input type="text" placeholder="Password">
+				<input type="email" type="number" placeholder="Email address or phone number"
+					onfocus="this.placeholder=''" onblur="this.placeholder='Email address or phone number'"
+				/>
+				<input type="password" placeholder="Password"
+					onfocus="this.placeholder=''" onblur="this.placeholder='Email address or phone number'"
+				/>
 				<button type="button" class="login-btn">Log in</button>
 			</form>
-			<P><a href="#">Forgotten account?</a></P>
-			
-			<button type="button" class="new-acc-btn">Create new account</button>
+			<P><a href="/recover/initiate">Forgotten account?</a></P>
+			<button type="button" class="signup"><a href="#">Create new account</a></button>
 		</div>
 	</div>
 	
