@@ -1,3 +1,72 @@
 body{
 	background:#f6f6f6;
+	font-family:sans-serif;
+	font-size:16px;
+	box-sizing: border-box;
+}
+.container{
+	display:flex;
+	justify-content:space-around;
+	align-items: center;
+	margin:auto;
+	height:100vh;
+}
+a{
+	text-decoration: none;
+	color:inherit;
+}
+.login p{
+	font-size:1em;
+	text-decoration: none;
+	text-align:center;
+	color:#1a77f2;
+	padding-bottom: 10px;
+	width:100%;
+	border-bottom: 1px solid black;
+}
+img{
+	width:350px;
+}
+.website-purpose>p{
+	margin:0;
+	font-weight: 600;
+	font-size:30px;
+	width:500px;
+}
+.login{
+	background:white;
+	box-shadow: 0px 0px 15px -2px grey;
+	border-radius: 5px;
+	padding:20px;
+	width: 350px;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+}
+input{
+	border: 2px solid #e6e6e6;
+	border-radius: 5px;
+	width:100%;
+	height: 30px;
+	margin-bottom:20px;
+}
+.login-btn{
+	width:100%;
+	background:#1a77f2;
+}
+.new-acc-btn{
+	width:200px;
+	background:#43b72a;
+	
+}
+button{
+	font-size: 1em;
+	color:white;
+	border-radius: 5px;
+	border: none;
+	height: 35px;
+}
+::placeholder{
+	font-weight: 500;
+	padding-left: 10px;
 }
